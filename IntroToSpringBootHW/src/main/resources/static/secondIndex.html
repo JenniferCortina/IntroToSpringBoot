@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is a second page that shows how to link multiple pages</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<h1>This is my second index page!</h1>
+<img src="https://i1.wp.com/tulipfestivalamsterdam.com/wp-content/uploads/2018/02/bigstock-Pond-and-flowering-tulips-at-K-112865387.jpg?resize=800%2C534&ssl=1" alt="An image of tulip gardens in Amsterdam" max-width="30%" height=auto>
+<p> If you want to subscribe to my site, please enter your contact information below.</p>
+
+<style>
+a:link, a:visited {
+  background-color: cyan;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: pink;
+}
+</style>
+
+
+
+<a href="http://localhost:63342/IntroToSpringBootHW/IntroToSpringBootHW.main/static/index.html?_ijt=j5od6crhpc1c9330ho38tgpmga&_ij_reload">Link to index page</a>
+
+
+<form action="" method="get" class="form-example">
+    <div class="form-example">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div class="form-example">
+        <input type="submit" value="Subscribe!">
+    </div>
+</form>
+
+</body>
+</html>

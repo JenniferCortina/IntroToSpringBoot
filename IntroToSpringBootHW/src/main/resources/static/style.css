@@ -1,0 +1,25 @@
+h1 {
+color:purple;
+font-family: Cambria;
+font-size: 300px
+font-weight: bold;
+text-align: center;
+background-color: mediumseagreen;
+}
+
+body {
+background-color: powderblue;
+}
+
+p {
+font-family: Cambria;
+font-size:46px;
+font-style: italic;
+text-align: center;
+
+}
+
+img {
+  border-radius: 8px;
+}
+

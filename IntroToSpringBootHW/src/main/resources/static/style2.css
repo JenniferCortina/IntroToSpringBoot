@@ -1,0 +1,37 @@
+body {
+background-color: #33CCCC;
+}
+
+h1 {
+font-family: Cambria;
+font-style: italic;
+}
+
+p {
+font-family: Cambria;
+}
+
+ /* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: burgundy;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+img {
+  opacity: 0.5;
+    border-radius: 8px;
+  }
